@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --clr-main: #4CAF50;
-    --clr-main-light: #785ce9;
+    --clr-main: #86d389;
+    --clr-main-light: #94ebb8;
     --clr-white: #ececec;
     --clr-gray: #e2e2e2;
     --clr-red: #961818;
@@ -49,6 +49,11 @@ aside {
 .logo {
     width: 200px;
     height: 75px;
+}
+
+.bi-person-circle{
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .menu {
@@ -101,11 +106,6 @@ aside {
     background-color: transparent;
     border-top-right-radius: .5rem;
     box-shadow: 0 -1rem 0 var(--clr-white);
-}
-
-.boton-menu > i.bi-hand-index-thumb-fill,
-.boton-menu > i.bi-hand-index-thumb {
-    transform: rotateZ(90deg);
 }
 
 .boton-carrito {
